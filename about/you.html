@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+About You ({{ page.url }})
+
+<ul>
+  <li><a href="{% relative_link index.html %}">index: {% relative_link index.html %}</a></li>
+  <li><a href="{% relative_link archive.html %}">archive: {% relative_link archive.html %}</a></li>
+  <li><a href="{% relative_link page.md %}">page: {% relative_link page.md %}</a></li>
+  <li><a href="{% relative_link about/you.html %}">about: {% relative_link about/you.html %}</a></li>
+  <li><a href="{% relative_link _posts/2000-01-01-new-year.md %}">post: {% relative_link _posts/2000-01-01-new-year.md %}</a></li>
+</ul>
